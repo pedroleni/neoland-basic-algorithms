@@ -89,3 +89,43 @@ let c = 10, m=5, i= c*m;
 console.log("I vale: "+i );
 
 
+/*-----------------------------------------------------------------------
+----------------------**Iteración #4: Operadores**-----------------------
+-----------------------------------------------------------------------*/
+
+
+// Consigue el valor "HULK" del array de avengers y muestralo por consola.
+const avergers= ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const nameAvegers =  avergers[0];
+
+// Cambiar el valor del 1 avenger a ironman
+avergers [0]="Iroman";
+console.log(nameAvegers);
+
+//console numero de elementos en el array usando la propiedad correcta de Array.
+console.log(avergers.length);
+
+// Añade 2 elementos al array: "Morty" y "Summer". 
+// Muestra en consola el último personaje del array
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+rickAndMortyCharacters.push("Morty");
+rickAndMortyCharacters.push("Summer");
+console.log("tradicional", rickAndMortyCharacters[4]);
+
+console.log("Version  alberto", rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
+
+//Elimina el último elemento del array y muestra el primero y el último por consola.
+const rickAndMortyCharactersDos = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharactersDos.pop();
+console.log( rickAndMortyCharactersDos [1]+ "  "+rickAndMortyCharactersDos [rickAndMortyCharactersDos.length-1]);
+
+
+//Elimina el segundo elemento del array y muestra el array por consola.
+const rickAndMortyCharactersTres = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharactersTres.splice(1,1);
+console.log(rickAndMortyCharactersTres);
+
+
+
+
