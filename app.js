@@ -118,7 +118,10 @@ console.log("Version  alberto", rickAndMortyCharacters[rickAndMortyCharacters.le
 //Elimina el último elemento del array y muestra el primero y el último por consola.
 const rickAndMortyCharactersDos = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 rickAndMortyCharactersDos.pop();
-console.log( rickAndMortyCharactersDos [1]+ "  "+rickAndMortyCharactersDos [rickAndMortyCharactersDos.length-1]);
+console.log( rickAndMortyCharactersDos [0]+ "  "+rickAndMortyCharactersDos [rickAndMortyCharactersDos.length-1]);
+
+console.log(rickAndMortyCharactersDos.shift())
+console.log(rickAndMortyCharactersDos.shift())
 
 
 //Elimina el segundo elemento del array y muestra el array por consola.
